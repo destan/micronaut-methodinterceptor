@@ -7,7 +7,7 @@ import io.micronaut.aop.MethodInvocationContext;
 import io.micronaut.context.annotation.Prototype;
 
 @Prototype
-@InterceptorBean(CustomAdvice.class)
+//@InterceptorBean(CustomAdvice.class)
 public class CustomInterceptor implements MethodInterceptor<HomeController, Object> {
 
 	@Override

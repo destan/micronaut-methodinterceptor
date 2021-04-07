@@ -3,7 +3,7 @@ package com.example;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 
-@CustomAdvice
+//@CustomAdvice
 @Controller("/")
 public class HomeController {
 

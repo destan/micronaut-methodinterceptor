@@ -10,12 +10,12 @@ import java.lang.annotation.Retention;
 
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
-@Around
-@Documented
+//@Around
+//@Documented
 @Retention(RUNTIME)
-//@Introduction
-//@Type(CustomInterceptor.class)
-//@Internal
+@Introduction
+@Type(CustomInterceptor.class)
+@Internal
 @interface CustomAdvice {
 
 }
